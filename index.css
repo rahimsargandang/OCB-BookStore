@@ -146,16 +146,14 @@
     padding: 20px;
   }
 
-  .comment {
+  .commentrating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
     background-color: white;
     border: black 1px solid;
-    border-radius: 10px;
-    padding: 5px 5px;
-  }
-
-  .rating {
-    background-color: white;
-    border: black 1px solid;
-    border-radius: 10px;
-    padding: 5px 5px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: small;
   }
