@@ -153,6 +153,14 @@
     padding: 20px;
   }
 
+  .button-commentrating {
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+  }
+
   .commentrating {
     display: flex;
     flex-direction: row;
@@ -163,6 +171,11 @@
     border-radius: 30px;
     padding: 10px 15px;
     font-size: small;
+  }
+
+  .commentrating-img {
+    max-height: 15px; 
+    max-width: 20px
   }
   
   .footer {
