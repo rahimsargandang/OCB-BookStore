@@ -161,3 +161,33 @@
     padding: 10px 15px;
     font-size: small;
   }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #2A2C2E;
+  }
+
+  .footer-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    font-size: small;
+    padding: 20px;
+    color: white;
+    opacity: 0.85;
+    font-weight: 200;
+  }
