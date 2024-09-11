@@ -112,14 +112,16 @@
   .category {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
     gap: 20px;
     margin: auto;
     background-color: #F4CE47;
     width: 100%;
     margin-bottom: 30px;
     font-size: 3rem;
+    white-space: nowrap;
   }
 
   .books-tile {
@@ -184,10 +186,32 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: black;
     font-size: small;
     padding: 20px;
     color: white;
     opacity: 0.85;
     font-weight: 200;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-bot {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+    .nav-mid {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
   }
