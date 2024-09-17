@@ -229,3 +229,40 @@
       width: 100%;
     }
   }
+
+  .flexrow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flexcol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-bookinfo {
+    
+  }
+
+  .book-info {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    background-color: #2A2C2E;
+  }
+
+  .book-info-left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+  }
