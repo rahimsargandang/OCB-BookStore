@@ -241,13 +241,19 @@
   }
 
 
+  .container-bookinfo {
+    display: flex;    
+    flex-direction: column;
+    gap: 10px;
+    max-width: 55%;
+    margin: auto;
+  }
+
   .book-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 70%;
     border-radius: 20px;
-    margin: auto;
     padding: 20px;
     background-color: #2A2C2E;
   }
@@ -261,7 +267,8 @@
   .book-info-right {
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
+    gap: 5px;
   }
 
   .details {
@@ -269,4 +276,17 @@
     flex-direction: column;
     color: white;
     gap: 5px;
+  }
+
+  .alsolike {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 60%;
+    gap: 5px;
+  }
+
+  .book-carousel {
+    display: flex;
+    flex-direction: row;
   }
