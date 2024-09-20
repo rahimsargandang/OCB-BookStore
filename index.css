@@ -292,3 +292,8 @@
     align-items: center;;
     gap: 12px;
   }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+  }
