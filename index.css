@@ -245,7 +245,7 @@
     display: flex;    
     flex-direction: column;
     gap: 10px;
-    max-width: 55%;
+    max-width: 1200px;
     margin: auto;
   }
 
@@ -282,11 +282,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 60%;
     gap: 5px;
   }
 
   .book-carousel {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;;
+    gap: 12px;
   }
