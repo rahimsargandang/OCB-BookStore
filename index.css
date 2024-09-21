@@ -279,6 +279,24 @@
     flex-direction: column;
   }
 
+  .review-carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .review-card {
+    background-color: white;
+    width: 590px;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
 
   @media screen and (max-width: 768px) {
     .footer-bot {
